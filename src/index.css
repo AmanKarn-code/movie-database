@@ -6,8 +6,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.App{
+  min-height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/abstract-background-illustration-watercolor-blue-green_53876-108704.jpg?w=740&t=st=1726822592~exp=1726823192~hmac=103e0d8efc10f235e60d3316d87a6c92a365c7a3fd6188927340b253bcdb64f8');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Makes the background fixed when scrolling */
+  background-position: center;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
